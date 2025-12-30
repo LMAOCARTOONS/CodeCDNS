@@ -13,6 +13,9 @@ const TEMPLATES = [
   // Codeberg support
   [/^(https?):\/\/codeberg\.org\/([^\/]+\/[^\/]+)\/(?:raw|src)\/(.+?)(?:\?.*)?$/i,
    '$1://cb.githack.com/$2/raw/$3'],
+    // Internet Archive support
+  [/^(https?):\/\/archive\.org\/([^\/]+\/[^\/]+)\/(?:raw|src)\/(.+?)(?:\?.*)?$/i,
+   '$1://ia.lmaocartoons.github.io/$2/CodeCDNS/$3']
 
   // snippet file URL from web interface, with revision
   [/^(https?):\/\/bitbucket\.org\/snippets\/([^\/]+\/[^\/]+)\/revisions\/([^\/\#\?]+)(?:\?[^#]*)?(?:\#file-(.+?))$/i,
