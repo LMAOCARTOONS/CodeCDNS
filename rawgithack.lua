@@ -69,6 +69,7 @@ local domain_to_origin = {
    ['gist'] = 'gist.githubusercontent.com',
    ['gt'] = 'gitea.com',
    ['cb'] = 'codeberg.org'
+   ['ia'] = 'archive.org'
 }
 
 
